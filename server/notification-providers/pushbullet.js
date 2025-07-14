@@ -23,14 +23,14 @@ class Pushbullet extends NotificationProvider {
             if (heartbeatJSON == null) {
                 let data = {
                     "type": "note",
-                    "title": "Uptime Kuma Alert",
+                    "title": "Uptime IC Africa Uptime Alert ",
                     "body": msg,
                 };
                 await axios.post(url, data, config);
             } else if (heartbeatJSON["status"] === DOWN) {
                 let downData = {
                     "type": "note",
-                    "title": "UptimeKuma Alert: " + monitorJSON["name"],
+                    "title": "IC Africa Uptime Alert: " + monitorJSON["name"],
                     "body": "[🔴 Down] " +
                         heartbeatJSON["msg"] +
                         `\nTime (${heartbeatJSON["timezone"]}): ${heartbeatJSON["localDateTime"]}`,

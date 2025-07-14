@@ -16,7 +16,7 @@ class GoogleChat extends NotificationProvider {
             // Google Chat message formatting: https://developers.google.com/chat/api/guides/message-formats/basic
 
             let chatHeader = {
-                title: "Uptime Kuma Alert",
+                title: "IC Africa Uptime Alert",
             };
 
             if (monitorJSON && heartbeatJSON) {

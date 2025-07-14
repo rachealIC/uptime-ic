@@ -103,6 +103,8 @@ export default {
     }
 }
 
+
+
 .form {
     width: 100%;
     max-width: 330px;

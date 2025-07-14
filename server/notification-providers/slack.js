@@ -143,7 +143,7 @@ class Slack extends NotificationProvider {
 
             const baseURL = await setting("primaryBaseURL");
 
-            const title = "Uptime Kuma Alert";
+            const title = "IC Africa Uptime Alert";
             let data = {
                 "text": msg,
                 "channel": notification.slackchannel,
